@@ -55,7 +55,8 @@ i {
     width: 100%;
     text-align: center;
     font-size: 13px;
-    background-color: #0b84c071;
+    background-color: #0b84c0;
+    bottom: 0;
 }
 
 hr{
@@ -71,17 +72,39 @@ hr{
     background-size: cover;
 }
 
-.content {
-    margin-inline: auto;
+.title {
+    margin-left: 10%;
     font-size: 32px;
     font-weight: 400;
-    line-height: 0.5em;
-    letter-spacing: .04em;
+    line-height: .5em;
+    letter-spacing: .3em;
     font-family: 'Russo One', sans-serif;
-    text-align: center;
+    text-transform: uppercase;
+}
+
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #005077;
+    line-height: 1.7em;
+    letter-spacing: .12em;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .content_1{
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.content_2{
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -89,56 +112,5 @@ hr{
     letter-spacing: 0em;
     line-height: 1.8em;
     text-transform: none;
-    text-align: center;
     color: #0e181b;
-}
-
-.outside_div{
-    margin: auto;
-    width: 900px;
-}
-
-.form{
-    background-color: white;
-    padding: 30px;
-}
-
-.form .input_field{
-    margin-bottom: 20px;
-    display: flex;
-    width: 900px;
-}
-
-label{
-    width: 250px;
-    font-size: 18px;
-    color: black;
-    font-style: normal;
-    font-weight: 100;
-}
-
-.required:after{
-    content: " *";
-    color: red;
-}
-
-.button{
-    margin: auto;
-    display: flex;
-}
-
-.media{
-    margin-top: -40px;
-    text-align: center;
-    font-family: 'Proxima Nova', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: 0em;
-    line-height: 1.8em;
-}
-
-.pic{
-    width: 400px;
-    margin-top: -30px;
 }
